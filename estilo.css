@@ -85,13 +85,24 @@ nav a:hover {
 }
 
 .banner1 {
-  background-color: green;
+  background-color: #39aae1;
 }
 
 .banner2 {
-  background-color: red;
+  background-color: #0a1655;
 }
 
 .banner3 {
-  background-color: yellow;
+  background-color: #2b4c99;
+}
+.banner1,
+.banner2,
+.banner3 {
+  flex: 1; /*Erro*/
+  color: #fff;
+  padding: 20px;
+}
+.banner_options {
+  height: 210px;
+  display: flex;
 }
