@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial;
 }
 
 header {
@@ -106,3 +107,49 @@ nav a:hover {
   height: 210px;
   display: flex;
 }
+.banner_title {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.banner_desc {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* botão saiba mais */
+.banner_options a {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* SEÇÃO GERAL */
+#geral {
+  display: flex;
+  justify-content: center;
+}
+#geral section {
+  flex: 2;
+}
+#geral aside {
+  flex: 1;
+}
+.widget_title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .widget_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 5px;
+  }
